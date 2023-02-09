@@ -37,7 +37,7 @@ public class Account {
     public void calculateBalance(){
         this.balance = 0;
         for (int i: this.transactions){
-            this.balance += 1;
+            this.balance += i;
             System.out.println("calculated balance is " + this.balance);
         }
     }
